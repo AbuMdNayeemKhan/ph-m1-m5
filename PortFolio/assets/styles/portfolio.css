@@ -19,11 +19,37 @@
     color: #FFFFFF;
 }
 
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.667%;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* ====================NAV START==================== */
 header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 220px;
 }
 
 header nav h3{
@@ -60,3 +86,69 @@ header nav ul li a{
 }
 
 /* ====================NAV ENDED==================== */
+
+/* ====================HEADER START==================== */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-greeting{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.banner-title{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+p{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.667%;
+    margin-bottom: 30px;
+}
+/* ====================HEADER ENDED==================== */
+
+/* ====================ABOUT SECTION START==================== */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+/* ====================ABOUT SECTION ENDED==================== */
