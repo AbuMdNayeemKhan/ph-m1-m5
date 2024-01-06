@@ -235,8 +235,26 @@ p{
 /* ====================FOOTER START==================== */
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
 }
 /* ====================FOOTER ENDED==================== */
