@@ -27,6 +27,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 36px;
 }
 
 .section-description{
@@ -53,7 +54,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 220px;
+    padding: 20px 220px;
 }
 
 header nav h3{
@@ -94,12 +95,12 @@ header nav ul li a{
 /* ====================HEADER START==================== */
 .header{
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 .banner{
-    padding: 30px 30px 0px 150px;
+    padding: 100px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -169,7 +170,14 @@ p{
     padding: 30px;
     border-radius: 5px;
     background: #FFF;
+    text-align: center;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills-container img{
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    margin-bottom: 20px;
 }
 .skill-title{
     color: #181818;
@@ -178,6 +186,7 @@ p{
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    margin-bottom: 25px;
     line-height: normal;
 }
 .skill-description{
@@ -243,7 +252,16 @@ footer{
 .footer-column{
     width: 50%;
 }
-.contact input, textarea{
+
+.footer-column h3{
+    text-align: left;
+}
+
+.footer-column p{
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
     display: block;
     margin-bottom: 25px;
     padding: 18px 30px;
@@ -256,5 +274,6 @@ footer{
     background-color: #FFFFFF;
     border-radius: 5px;
     border: 0;
+    width: 100%;
 }
 /* ====================FOOTER ENDED==================== */
